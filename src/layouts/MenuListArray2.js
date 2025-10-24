@@ -30,11 +30,11 @@ export const MenuListArray2 = [
                 title: 'Weight Calculator',
                 to: '/weight-calculator',
             },
-         /*   {
+           {
                 title: 'Appointment',
                 to: '/appointment',
             },
-            {
+           /*  {
                 title: 'Schedule',
                 to: '/schedule',
             },
@@ -110,4 +110,5 @@ export const MenuListArray2 = [
         title: 'Contact Us',
         to: '/contact-us',
     },
+
 ]
