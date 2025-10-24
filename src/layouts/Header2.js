@@ -111,7 +111,7 @@ const Header2 = () => {
                   </button>
                   <Link
                     to={"/appointment"}
-                    className="btn btn-skew appointment-btn d-xl-block d-none"
+className="btn btn-skew appointment-btn d-none d-sm-block"
                   >
                     <span>Appointment</span>
                   </Link>
