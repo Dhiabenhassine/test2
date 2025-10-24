@@ -5,7 +5,6 @@ import FitnessTraining from '../elements/FitnessTraining';
 import LatestSlider from '../elements/LatestSlider';
 import NewsLetter from '../elements/NewsLetter';
 import PageTitle from '../elements/PageTitle';
-import ScheduleTable from '../elements/ScheduleTable';
 import WorkoutSlider from '../elements/WorkoutSlider';
 
 const AboutUs = () => {

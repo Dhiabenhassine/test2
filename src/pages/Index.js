@@ -10,7 +10,6 @@ import ScrollToTop from "./../layouts/ScrollToTop";
 
 
 //Pages
-import Home from "./Home";
 import AboutUs from "./AboutUs";
 import Team from "./Team";
 import Pricing from "./Pricing";
@@ -53,7 +52,7 @@ function Index() {
         <Route path="/appointment" exact element={<Appointment />} />
         <Route path="/coming-soon" exact element={<ComingSoon />} />
         <Route element={<MainLayout />}>
-          <Route path="/" exact element={<Home />} />
+          <Route path="/" exact element={<Home2 />} />
           <Route path="/about-us" exact element={<AboutUs />} />
           <Route path="/team" exact element={<Team />} />
           <Route path="/faq" exact element={<Faq />} />
