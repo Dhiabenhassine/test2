@@ -58,9 +58,9 @@ function Index() {
           <Route path="/faq" exact element={<Faq />} />
           <Route path="/pricing" exact element={<Pricing />} />
           <Route path="/schedule" exact element={<Schedule />} />
-          <Route path="/portfolio" exact element={<Portfolio />} />
+          <Route path="/Packages" exact element={<Portfolio />} />
           <Route
-            path="/portfolio-details"
+            path="/Packages-details"
             exact
             element={<PortfolioDetails />}
           />

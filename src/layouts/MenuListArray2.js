@@ -54,13 +54,11 @@ export const MenuListArray2 = [
         ],
     },
     {
-        title: 'Portfolio',
-        classChange: 'sub-menu-down',
+        title: 'Packages',
+        to: '/Packages',
+        classChange: '',
         content: [
-            {
-                title: 'Portfolio',
-                to: '/portfolio',
-            },
+           
           /*  {
                 title: 'Portfolio Details',
                 to: '/portfolio-details',

@@ -23888,7 +23888,7 @@ pre {
     padding-bottom: 0px;
     border-bottom: 2px solid #000 !important; }
     .custom-react-select > div:nth-child(3) > div:first-child > div {
-      color: var(--primary);
+      color: "#000";
       font-weight: 400;
       font-size: 24px; }
     .custom-react-select > div:nth-child(3) > div:last-child {
