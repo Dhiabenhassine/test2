@@ -17894,7 +17894,7 @@ ul a.rsswidget {
       justify-content: center;
       align-items: flex-end; }
       .main-bnr-three .banner-inner .banner-media img {
-        width: 415px; }
+        width: 500px; }
         @media only screen and (max-width: 1480px) {
           .main-bnr-three .banner-inner .banner-media img {
             width: 420px; } }
@@ -17903,10 +17903,10 @@ ul a.rsswidget {
             width: 350px; } }
         @media only screen and (max-width: 991px) {
           .main-bnr-three .banner-inner .banner-media img {
-            width: 280px; } }
+            width: 300px; } }
         @media only screen and (max-width: 575px) {
           .main-bnr-three .banner-inner .banner-media img {
-            width: 180px; } }
+            width: 250px; } }
     .main-bnr-three .banner-inner .banner-content {
       position: relative;
       z-index: 10;
