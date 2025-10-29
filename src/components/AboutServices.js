@@ -5,12 +5,12 @@ import { IMAGES } from "../constants/theme";
 const serviceList = [
   { title: "Personal Training" },
   { title: "Body Building" },
-  { title: "Boxing Classess" },
-  { title: "Cardio And More" },
-  { title: "Personal Training" },
-  { title: "Body Building" },
-  { title: "Boxing Classess" },
-  { title: "Cardio And More" },
+  { title: "Progress Training" },
+  { title: "Nutrition System" },
+  { title: "HIT Workout" },
+  { title: "Corrective Exercices" },
+  { title: "Tailored Workout" },
+  { title: "Body Toning" },
 ];
 const AboutServices = () => {
   return (
@@ -21,7 +21,7 @@ const AboutServices = () => {
             <div className="image-box wow fadeInUp">
               <img src={IMAGES.aboutPic5} alt="" />
               <div className="tag">
-                <h2>2 0</h2>
+                <h2>1 2</h2>
                 <h5>year experience</h5>
               </div>
             </div>
