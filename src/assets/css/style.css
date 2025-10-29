@@ -17897,16 +17897,16 @@ ul a.rsswidget {
         width: 415px; }
         @media only screen and (max-width: 1480px) {
           .main-bnr-three .banner-inner .banner-media img {
-            width: 520px; } }
+            width: 420px; } }
         @media only screen and (max-width: 1280px) {
           .main-bnr-three .banner-inner .banner-media img {
-            width: 450px; } }
+            width: 350px; } }
         @media only screen and (max-width: 991px) {
           .main-bnr-three .banner-inner .banner-media img {
-            width: 380px; } }
+            width: 280px; } }
         @media only screen and (max-width: 575px) {
           .main-bnr-three .banner-inner .banner-media img {
-            width: 280px; } }
+            width: 180px; } }
     .main-bnr-three .banner-inner .banner-content {
       position: relative;
       z-index: 10;
