@@ -5,7 +5,7 @@ import NewsLetter from "../elements/NewsLetter";
 import PageTitle from "../elements/PageTitle";
 
 const mediaBlog = [
-  { images: IMAGES.team1, title: "EMILY" }
+  { images: IMAGES.team1, title: "Tahani Kochrad" }
 ];
 
 const Team = () => {

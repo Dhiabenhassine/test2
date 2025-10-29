@@ -69,7 +69,7 @@ export const IMAGES = {
 
   watning: require("../assets/images/warning.png"),
 
-  team1: require("../assets/images/team/member1.png"),
+  team1: require("../assets/images/team/member3.jpg"),
   team2: require("../assets/images/team/member2.png"),
   team3: require("../assets/images/team/member3.png"),
   team4: require("../assets/images/team/member4.png"),
