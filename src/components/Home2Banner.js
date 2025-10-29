@@ -36,7 +36,7 @@ const Home2Banner = ({ open }) => {
             </div>
           </div>
           <div className="banner-media media1 anm wow fadeInUp">
-            <img src={IMAGES.Slide2Hero} alt="" />
+            <img src={IMAGES.team3} alt="" />
           </div>
         </div>
         <div className="video-bx5">

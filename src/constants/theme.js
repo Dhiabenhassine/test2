@@ -23,6 +23,7 @@ export const IMAGES = {
   SliderBg1: require("../assets/images/main-slider/slider1/bg1.jpg"),
   SliderBg2: require("../assets/images/main-slider/slider2/bg3.png"),
   Slide2Hero: require("../assets/images/main-slider/slider2/hero.png"),
+
   Slide2Video: require("../assets/images/main-slider/slider2/video.jpg"),
   Slide2Starts: require("../assets/images/main-slider/slider2/stars.png"),
 
@@ -71,7 +72,7 @@ export const IMAGES = {
 
   team1: require("../assets/images/team/member3.jpg"),
   team2: require("../assets/images/team/member2.png"),
-  team3: require("../assets/images/team/member3.png"),
+  team3: require("../assets/images/team/member1-.png"),
   team4: require("../assets/images/team/member4.png"),
   team5: require("../assets/images/team/member5.png"),
   team6: require("../assets/images/team/member6.png"),
