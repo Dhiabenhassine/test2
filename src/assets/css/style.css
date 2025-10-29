@@ -17888,7 +17888,7 @@ ul a.rsswidget {
       width: 90%;
       height: 100%;
       position: absolute;
-      bottom: 0;
+      top: 10%;
       left: 0;
       display: flex;
       justify-content: center;
