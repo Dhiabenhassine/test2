@@ -121,7 +121,7 @@ const VideoBox = () => {
           width: 80px;
           height: 80px;
           background: #ff3c00;
-          color: #fff;
+          color: #fff93dff;
           border-radius: 50%;
           font-size: 30px;
           cursor: pointer;
