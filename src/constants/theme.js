@@ -6,6 +6,9 @@ import circlebig2 from "../assets/images/pattern/circle-2.svg";
 
 export const IMAGES = {
 
+  //video
+  BgVideo1: require("../assets/videos/video2.mp4"),
+
   BgImage1: require("../assets/images/background/bg1.png"),
   BgImage2: require("../assets/images/background/bg2.png"),
   BgImage3: require("../assets/images/background/bg3.png"),
@@ -17,7 +20,7 @@ export const IMAGES = {
   BgImage13: require("../assets/images/background/bg13.png"),
   BgBanner2: require("../assets/images/banner/bg2.png"),
   BgAppoint: require("../assets/images/background/bg-appointment.jpg"),
-  BackgroundBg1: require("../assets/images/background/bg1.jpg"),
+  BackgroundBg1: require("../assets/images/background/footer-bg2.jpg"),
   BackgroundBg15: require("../assets/images/background/bg15.png"),
 
   SliderBg1: require("../assets/images/main-slider/slider1/bg1.jpg"),
@@ -152,7 +155,7 @@ export const IMAGES = {
 
   counterPattern: require("../assets/images/pattern.jpg"),
 
-  aboutPic5: require("../assets/images/about/pic5.jpg"),
+  aboutPic5: require("../assets/images/about/pic5.webp"),
   aboutPic6: require("../assets/images/about/pic6.jpg"),
   aboutPic7: require("../assets/images/about/pic7.png"),
   aboutPic: require("../assets/images/about/pic.png"),

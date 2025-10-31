@@ -39,7 +39,7 @@ const Home2Banner = ({ open }) => {
             <img src={IMAGES.team3} alt="" />
           </div>
         </div>
-        <div className="video-bx5">
+       {/* <div className="video-bx5">
           <Link
             onClick={() => {
               open(true);
@@ -52,7 +52,7 @@ const Home2Banner = ({ open }) => {
               <i className="fa fa-play"></i>
             </span>
           </Link>
-        </div>
+        </div>*/}
         <img src={IMAGES.Slide2Starts} alt="" className="move-1" />
       </div>
     </>

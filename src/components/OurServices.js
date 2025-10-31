@@ -62,12 +62,14 @@ const OurServices = () => {
                     <i className={item.icon}></i>
                   </div>
                   <h4 className="dz-title m-b10">
-                    <Link to="/pricing">{item.title}</Link>
+                    <Link 
+                    //to="/pricing"
+                    to="/Packages">{item.title}</Link>
                   </h4>
                 </div>
                 <div className="icon-content">
                   <p className="m-b15">{item.description}</p>
-                  <Link to="/pricing" className="read-more">
+                  <Link to="/Packages" className="read-more">
                     Read More <i className="fa-solid fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -97,12 +99,13 @@ const OurServices = () => {
                     <i className={item.icon}></i>
                   </div>
                   <h4 className="dz-title m-b10">
-                    <Link to="/pricing">{item.title}</Link>
+                    <Link 
+                    to="/Packages">{item.title}</Link>
                   </h4>
                 </div>
                 <div className="icon-content">
                   <p className="m-b15">{item.description}</p>
-                  <Link to="/pricing" className="read-more">
+                  <Link to="/Packages" className="read-more">
                     Read More <i className="fa-solid fa-arrow-right"></i>
                   </Link>
                 </div>

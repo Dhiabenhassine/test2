@@ -13,7 +13,7 @@ const portBlog = [
     {images: IMAGES.portfolio6, title:'Fitness Strategies For Beginners'},
 ];
 
-const Portfolio = () => {
+const Packages = () => {
     return (
         <>
             <div className="page-content bg-white">
@@ -25,10 +25,10 @@ const Portfolio = () => {
                                 <div className="col-lg-4 col-sm-6 m-b40" key={index}>
                                     <div className="dz-box style-2">
                                         <div className="dz-media">
-                                            <Link to={"/Packages-details"}><img src={data.images} alt="" /></Link>
+                                            <Link to={"/pricing"}><img src={data.images} alt="" /></Link>
                                         </div>
                                         <div className="dz-info">
-                                            <h4 className="title"><Link to={"/Packages-details"}>{data.title}</Link></h4>
+                                            <h4 className="title"><Link to={"/pricing"}>{data.title}</Link></h4>
                                         </div>
                                     </div>	
                                 </div>
@@ -46,4 +46,4 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio;
+export default Packages;
