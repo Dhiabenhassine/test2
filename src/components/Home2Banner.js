@@ -1,6 +1,5 @@
 import React from "react";
 import { IMAGES } from "../constants/theme";
-import { Link } from "react-router-dom";
 
 const Home2Banner = ({ open }) => {
   return (
