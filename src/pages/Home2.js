@@ -8,8 +8,8 @@ import VideoBox from "../elements/VideoBox";
 import Gallery from "../components/Gallery";
 import ModalVideo from "react-modal-video";
 import Testimonial from "../components/Testimonial";
-import OurBlog from "../components/OurBlog";
-import Clients from "../elements/Clients";
+//import OurBlog from "../components/OurBlog";
+//import Clients from "../elements/Clients";
 import { useLocation } from "react-router-dom";
 
 const Home2 = () => {
@@ -106,22 +106,22 @@ const Home2 = () => {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <div className="container">
+        {/*  <div className="container">
             <div className="section-head style-1 text-center">
               <h2 className="title">
                 Latest <span className="text-primary">News Feed</span>
               </h2>
             </div>
             <OurBlog />
-          </div>
+          </div>*/}
         </section>
-        <div className="half-shape-top-w theme-bg content-inner-1 ">
+     {/*   <div className="half-shape-top-w theme-bg content-inner-1 ">
           <div className="container">
             <div className="clients-box">
               <Clients />
             </div>
           </div>
-        </div>
+        </div>*/}
         <section className="call-action style-1 footer-action">
           <div className="container">
             <div className="inner-content wow fadeInUp" data-wow-delay="0.8s">
