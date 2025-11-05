@@ -32,7 +32,7 @@ import ContactUs from "./ContactUs";
 import Home2 from "./Home2";
 import Header2 from "../layouts/Header2";
 import Home3 from "./Home3";
-//import Login from "../pages/login";
+import Login from "../pages/login";
 import Login2 from "../pages/login2"
 
 function Index() {
@@ -53,6 +53,7 @@ function Index() {
         <Route path="/under-maintenance" exact element={<UnderConstruction />}/>
         <Route path="/appointment" exact element={<Appointment />} />
         <Route path="/login" exact element={<Login2 />} />
+         <Route path="/login2" exact element={<Login />} />
         <Route path="/coming-soon" exact element={<ComingSoon />} />
         <Route element={<MainLayout />}>
           <Route path="/" exact element={<Home2 />} />
