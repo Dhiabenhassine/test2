@@ -52,8 +52,8 @@ const App = () => {
               </div>
             )}
             <div className="links">
-              <a href="#">Forgot Password</a>
-              <a href="#" onClick={() => setIsSignup(!isSignup)}>
+              <a href="/login">Forgot Password</a>
+              <a href="/login" onClick={() => setIsSignup(!isSignup)}>
                 {isSignup ? "Already have an account? Sign In" : "Signup"}
               </a>
             </div>

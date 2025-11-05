@@ -269,10 +269,10 @@ export const Mainheader = () => {
                 </ul>
               </div>
               <div className="mobile-login-button d-sm-none mt-3 pt-3 border-top">
-                <Link to={"/login"} className="btn btn-skew appointment-btn w-100">
+                {/*<Link to={"/login"} className="btn btn-skew appointment-btn w-100">
                   <i className="fa-solid fa-user" style={{ color: "#FFD43B" }}></i>
                   <a><br></br>Connect To Your Account</a>
-                </Link>
+                </Link>*/}
               </div>
             </div>
           </div>
