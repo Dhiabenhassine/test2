@@ -7,16 +7,19 @@
   font-family: 'Quicksand', sans-serif;
 }
 
+/* === BODY === */
 body {
-  display: flex;
   min-height: 100vh;
   background: #000;
-  overflow: hidden;
+  overflow-y: auto;
+  position: relative;
 }
 
 /* ====== Animated Grid Background ====== */
-section {
-  position: absolute;
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -25,15 +28,17 @@ section {
   gap: 2px;
   flex-wrap: wrap;
   overflow: hidden;
+  z-index: 0;
 }
 
-section::before {
+.background::before {
   content: '';
   position: absolute;
   width: 100%;
   height: 100%;
   background: linear-gradient(#000, rgb(201, 204, 2), #000);
   animation: animate 5s linear infinite;
+  z-index: 1;
 }
 
 @keyframes animate {
@@ -45,7 +50,7 @@ section::before {
   }
 }
 
-section span {
+.background span {
   position: relative;
   display: block;
   width: calc(6.25vw - 2px);
@@ -55,17 +60,27 @@ section span {
   transition: 1.5s;
 }
 
-section span:hover {
+.background span:hover {
   background: rgb(201, 204, 2);
   transition: 0s;
 }
 
+/* ====== Centered Wrapper for Form ====== */
+.signin-wrapper {
+  position: relative;
+  z-index: 1000;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* ✅ Center vertically + horizontally */
+  padding: 40px 0;
+}
+
 /* ====== Signin Box ====== */
 .signin {
-  position: absolute;
   width: 400px;
   background: #222;
-  z-index: 1000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,9 +183,8 @@ input[type="submit"]:active {
 /* 📱 RESPONSIVE ADJUSTMENTS     */
 /* ============================= */
 
-/* Phones (portrait, < 600px) */
 @media (max-width: 600px) {
-  section span {
+  .background span {
     width: calc(14vw - 2px);
     height: calc(14vw - 2px);
   }
@@ -200,9 +214,8 @@ input[type="submit"]:active {
   }
 }
 
-/* Tablets (landscape & portrait, 601px–992px) */
 @media (min-width: 601px) and (max-width: 992px) {
-  section span {
+  .background span {
     width: calc(10vw - 2px);
     height: calc(10vw - 2px);
   }
@@ -221,9 +234,8 @@ input[type="submit"]:active {
   }
 }
 
-/* Desktop (>992px) */
 @media (min-width: 993px) {
-  section span {
+  .background span {
     width: calc(8.25vw - 2px);
     height: calc(8.25vw - 2px);
   }
