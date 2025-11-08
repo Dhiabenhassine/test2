@@ -7,7 +7,7 @@ import OurServices from "../components/OurServices";
 import VideoBox from "../elements/VideoBox";
 import Gallery from "../components/Gallery";
 import ModalVideo from "react-modal-video";
-import Testimonial from "../components/Testimonial";
+//import Testimonial from "../components/Testimonial";
 //import OurBlog from "../components/OurBlog";
 //import Clients from "../elements/Clients";
 import { useLocation } from "react-router-dom";
@@ -80,7 +80,7 @@ const Home2 = () => {
             <Gallery />
           </div>
         </section>
-        <section
+       {/* <section
           className="content-inner-1 overflow-hidden testimonial-wrapper1"
           data-text="FEEDBACK"
           style={{
@@ -98,7 +98,7 @@ const Home2 = () => {
             </div>
             <Testimonial />
           </div>
-        </section>
+        </section> */}
         <section
           className="content-inner-2 overflow-hidden"
           style={{

@@ -1,49 +1,111 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
-import { IMAGES } from '../constants/theme';
-import NewsLetter from '../elements/NewsLetter';
-import PageTitle from '../elements/PageTitle';
+import React from "react";
+import { Link } from "react-router-dom";
+import { IMAGES } from "../constants/theme";
+import NewsLetter from "../elements/NewsLetter";
+import PageTitle from "../elements/PageTitle";
 
-const portBlog = [
-    {images: IMAGES.portfolio1, title:'Fitness – Workout Exercises for Fat Loss2'},
-    {images: IMAGES.portfolio7, title:'What Can You Do About Fitness.'},
-    {images: IMAGES.portfolio3, title:'3 Ways Create Better Fitness Faster.'},
-    {images: IMAGES.portfolio4, title:'14 Days To A Better Fitness Right Now'},
-    {images: IMAGES.portfolio5, title:'Easy Ways To Make Fitness Faster'},
-    {images: IMAGES.portfolio6, title:'Fitness Strategies For Beginners'},
+const fakePackages = [
+  {
+    id: 1,
+    title: "traning 1",
+    image: IMAGES.overlayBoxpic5,
+    description:
+      "Enjoy breathtaking mountain views, guided hikes, and cozy cabins in the Alps.",
+  },
+  {
+    id: 2,
+    title: "traning 2",
+    image: IMAGES.overlayBoxpic5 || "/images/beach.jpg",
+    description:
+      "Relax on white sand beaches, enjoy sunset dinners, and swim in turquoise waters.",
+  },
+  {
+    id: 3,
+    title: "traning 3",
+    image: IMAGES.overlayBoxpic5 || "/images/city.jpg",
+    description:
+      "Explore nightlife, gourmet restaurants, and iconic landmarks in vibrant cities.",
+  },
+  {
+    id: 4,
+    title: "traning 4",
+    image: IMAGES.overlayBoxpic5 || "/images/desert.jpg",
+    description:
+      "Ride across golden dunes, experience camel trekking, and enjoy traditional cuisine.",
+  },
+  {
+    id: 5,
+    title: "traning 5",
+    image: IMAGES.overlayBoxpic5 || "/images/island.jpg",
+    description:
+      "Private resort stay, snorkeling adventures, and oceanfront relaxation.",
+  },
+  {
+    id: 6,
+    title: "traning 6",
+    image: IMAGES.overlayBoxpic5 || "/images/forest.jpg",
+    description:
+      "Reconnect with nature through guided meditation, yoga, and eco-friendly cabins.",
+  },
 ];
 
 const Packages = () => {
-    return (
-        <>
-            <div className="page-content bg-white">
-                <PageTitle  parentTitle="Packages" />
-                <section className="content-inner">
-                    <div className="container">
-                        <div className="row ">
-                            {portBlog.map((data, index)=>(
-                                <div className="col-lg-4 col-sm-6 m-b40" key={index}>
-                                    <div className="dz-box style-2">
-                                        <div className="dz-media">
-                                            <Link to={"/pricing"}><img src={data.images} alt="" /></Link>
-                                        </div>
-                                        <div className="dz-info">
-                                            <h4 className="title"><Link to={"/pricing"}>{data.title}</Link></h4>
-                                        </div>
-                                    </div>	
-                                </div>
-                            ))}
-                        </div>
+  return (
+    <>
+      <div className="page-content bg-white">
+        {/* === Page Header === */}
+        <PageTitle parentTitle="Packages" />
+
+        {/* === Packages Section === */}
+        <section className="content-inner">
+          <div className="container">
+            <div className="row">
+              {fakePackages.map((pkg) => (
+                <div
+                  className="col-xl-4 col-lg-6 col-md-6 m-b30 wow fadeInUp"
+                  data-wow-delay="0.2s"
+                  key={pkg.id}
+                >
+                  <div className="card shadow-sm border-0 rounded-3 overflow-hidden h-100">
+                    <div className="card-img-top">
+                      <img
+                        src={pkg.image}
+                        alt={pkg.title}
+                        className="img-fluid w-100"
+                        style={{ height: "250px", objectFit: "cover" }}
+                      />
                     </div>
-                </section>        
-                <section className="call-action style-1 footer-action">
-			        <div className="container">
-                        <NewsLetter />
+                    <div className="card-body d-flex flex-column justify-content-between">
+                      <div>
+                        <h4 className="mb-2 text-dark fw-bold">{pkg.title}</h4>
+                        <p className="text-muted small mb-2">{pkg.duration}</p>
+                        <p className="text-secondary">{pkg.description}</p>
+                      </div>
+                      <div className="mt-3">
+                        <Link
+                          to={`/packages/${pkg.id}`}
+                          className="btn btn-dark btn-sm"
+                        >
+                          View Details
+                        </Link>
+                      </div>
                     </div>
-                </section>    
+                  </div>
+                </div>
+              ))}
             </div>
-        </>
-    );
+          </div>
+        </section>
+
+        {/* === Newsletter Section === */}
+        <section className="call-action style-1 footer-action">
+          <div className="container">
+            <NewsLetter />
+          </div>
+        </section>
+      </div>
+    </>
+  );
 };
 
 export default Packages;

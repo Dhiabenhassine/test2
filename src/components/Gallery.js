@@ -12,7 +12,7 @@ const lightimg = [
 const lightimg2 = [
   { title: "Training", img: IMAGES.overlayBoxpic3 },
   { title: "Body Toning", img: IMAGES.overlayBoxpic4 },
-  {title: "Workout", img: IMAGES.overlayBoxpic4 },
+  {title: "Workout", img: IMAGES.overlayBoxpic6 },
 ];
 const progressDetails = [
   { title: "SPECIFIC PREPARATION", process: "90%" },

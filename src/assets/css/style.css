@@ -24854,4 +24854,28 @@ pre {
     position: relative;
     outline: none; }
 
+    /* Centering container */
+.text-center {
+  text-align: center;
+}
+
+/* Custom button styling */
+.start-btn {
+  background-color: #000 !important;
+  color: rgb(201, 204, 2) !important;
+  padding: 18px 45px !important;
+  font-size: 1.3em !important;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.start-btn:hover {
+  background-color: rgb(201, 204, 2) !important;
+  color: #000 !important;
+  transform: scale(1.05);
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -7,6 +7,14 @@ const FitnessGoal = ({ isOpenModal }) => {
     return (
         <>
             <div className="col-lg-6 about-content m-b30">
+                                  <div className="text-center mt-4">
+  <Link
+    to="/packages"
+    className="btn btn-skew btn-xl btn-dark shadow-lg start-btn"
+  >
+    <span>START NOW!</span>
+  </Link>
+</div>
                 <div className="section-head m-0 text-start">
                     <span className="sub-title">ABOUT US</span>
                     <h2 className="title">
@@ -58,6 +66,8 @@ const FitnessGoal = ({ isOpenModal }) => {
                             </Tab.Pane>
                         </Tab.Content>
                     </Tab.Container>
+
+
                 </div>
 
                 <div className="contact-us">
