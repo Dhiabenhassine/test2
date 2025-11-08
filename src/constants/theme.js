@@ -159,7 +159,7 @@ export const IMAGES = {
   aboutPic5: require("../assets/images/about/pic5.webp"),
   aboutPic6: require("../assets/images/about/pic6.jpg"),
   aboutPic7: require("../assets/images/about/pic7.png"),
-  aboutPic: require("../assets/images/about/pic.png"),
+  aboutPic: require("../assets/images/about/pic..png"),
 
   overlayBoxpic1: require("../assets/images/overly-box/pic1.jpg"),
   overlayBoxpic2: require("../assets/images/overly-box/pic2.jpg"),
