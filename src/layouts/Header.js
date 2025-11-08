@@ -134,9 +134,7 @@ export const Mainheader = () => {
                 <Link to={"/login"} className="btn btn-skew appointment-btn d-none d-sm-block">
                   <i className="fa-solid fa-user" style={{ color: "#000000ff" }}></i>
                 </Link>
-                 <Link to={"/login2"} className="btn btn-skew appointment-btn d-none d-sm-block">
-                  <i className="fa-solid fa-user" style={{ color: "#caad06ff" }}></i>
-                </Link>
+               
                 <Link to={"/appointment"} className="btn btn-primary btn-skew appointment-btn">
                   <span>Appointment</span>
                 </Link>
@@ -277,11 +275,7 @@ export const Mainheader = () => {
   <br />
   <span>Connect To Your Account</span>
 </Link>
-          <Link to={"/login2"} className="btn btn-skew appointment-btn w-100">
-  <i className="fa-solid fa-user" style={{ color: "#000000ff" }}></i>
-  <br />
-  <span>Connect To Your Account</span>
-</Link>
+ 
               </div>
             </div>
           </div>
