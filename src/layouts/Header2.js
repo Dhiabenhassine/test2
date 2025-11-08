@@ -29,9 +29,7 @@ const Header = () => {
               </div>
               <div className="dz-topbar-right">
                 <ul>
-                  <li>
-                    <i className="fa-regular fa-clock"></i> Time 06:00 AM To 08:00 PM
-                  </li>{" "}
+                
                   <li>
                     <i className="fa fa-phone"></i> +91-1234567890
                   </li>
@@ -132,7 +130,7 @@ export const Mainheader = () => {
             <div className="extra-nav">
               <div className="extra-cell">
                 <Link to={"/login"} className="btn btn-skew appointment-btn d-none d-sm-block">
-                  <i className="fa-solid fa-user" style={{ color: "#FFD43B" }}></i>
+                  <i className="fa-solid fa-user" style={{ color: "#000000ff" }}></i>
                 </Link>
                 <Link to={"/appointment"} className="btn btn-primary btn-skew appointment-btn">
                   <span>Appointment</span>

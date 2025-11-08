@@ -29,11 +29,9 @@ const Header = () => {
               </div>
               <div className="dz-topbar-right">
                 <ul>
+                  
                   <li>
-                    <i className="fa-regular fa-clock"></i> Time 06:00 AM To 08:00 PM
-                  </li>{" "}
-                  <li>
-                    <i className="fa fa-phone"></i> +91-1234567890
+                    <i className="fa fa-phone"></i> +91-1234567111
                   </li>
                 </ul>
               </div>
