@@ -153,6 +153,7 @@ export const IMAGES = {
   largebgimg6: require("../assets/images/switcher/large/background/bg6.jpg"),
   largebgimg7: require("../assets/images/switcher/large/background/bg7.jpg"),
 
+
   counterPattern: require("../assets/images/pattern.jpg"),
 
   aboutPic5: require("../assets/images/about/pic5.webp"),

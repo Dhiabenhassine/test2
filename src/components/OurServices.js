@@ -78,7 +78,7 @@ const OurServices = () => {
           ))}
         </div>
       </div>
-      <div className="col-xl-4 col-lg-6 col-md-6 m-b30 order-md-1 order-2">
+      <div className="col-xl-3 col-lg-6 col-md-6 m-b30 order-md-1 order-2">
         <div className="trainer wow fadeInUp" data-wow-delay="0.8s">
           <img
             src={IMAGES.aboutPic || "/placeholder.svg"}
