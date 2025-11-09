@@ -68,34 +68,7 @@ const Footer2 = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-3 col-md-4 wow fadeInUp">
-                <div className="widget recent-posts-entry">
-                  <h4 className="footer-title">Blog Posts</h4>
-                  <div className="widget-post-bx">
-                    <div className="widget-post clearfix">
-                      <div className="dz-info">
-                        <h6 className="title">
-                          <Link to={"/blog-details"}>
-                            The Philosophy Of Best Fitness.
-                          </Link>
-                        </h6>
-                        <span className="post-date"> JUNE 18, 2023</span>
-                      </div>
-                    </div>
-                    <div className="post-separator"></div>
-                    <div className="widget-post clearfix">
-                      <div className="dz-info">
-                        <h6 className="title">
-                          <Link to={"/blog-details"}>
-                            Best 50 Tips For Heavy Fitness.
-                          </Link>
-                        </h6>
-                        <span className="post-date"> AUGUST 22, 2023</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+             
               <div className="col-xl-3 col-md-4 wow fadeInUp">
                 <div className="widget widget_locations">
                   <h4 className="footer-title">Locations</h4>

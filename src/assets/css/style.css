@@ -608,6 +608,7 @@ progress {
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-.5 * var(--bs-gutter-x));
   margin-left: calc(-.5 * var(--bs-gutter-x)); }
@@ -11903,7 +11904,8 @@ footer {
   background-position: center;
   overflow: hidden;
   background-color: #fff;
-  background-size: cover; }
+  background-size: cover; 
+}
   .site-footer.style-1 .footer-title {
     display: inline-block;
     padding-bottom: 15px; }
