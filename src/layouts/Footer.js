@@ -50,27 +50,7 @@ const Footer = () => {
                                 </div>
                             </div>
 
-                            {/* Contact Section */}
-                            <div className="col-xl-3 col-md-6 mb-4">
-                                <div className="widget widget_contact">
-                                    <h4 className="footer-title mb-3">Contact Us</h4>
-                                    <ul className="contact-info list-unstyled">
-                                        <li className="mb-2">
-                                            <i className="fa fa-map-marker-alt me-2"></i>
-                                            1559 Alabama Ave SE, DC 20032, Washington, USA
-                                        </li>
-                                        <li className="mb-2">
-                                            <i className="fa fa-phone-alt me-2"></i>
-                                            <Link to="tel:+1-800-555-1234">+1 (800) 555-1234</Link>
-                                        </li>
-                                        <li className="mb-2">
-                                            <i className="fa fa-envelope me-2"></i>
-                                            <h6 >info@yourcompany.com</h6>
-                                        </li>
-                                      
-                                    </ul>
-                                </div>
-                            </div>
+                           
 
                             {/* Location Section */}
                             <div className="col-xl-3 col-md-6 mb-4">
@@ -92,9 +72,7 @@ const Footer = () => {
                     <div className="footer-bottom text-center mt-4">
                         <span className="copyright-text">
                             Copyright © {update.getFullYear()}{" "}
-                            <Link to="https://dexignzone.com/" rel="noreferrer" target="_blank">
-                                DexignZone
-                            </Link>. All rights reserved.
+                           . All rights reserved.
                         </span>
                     </div>
                 </div>
