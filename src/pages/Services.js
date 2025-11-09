@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
-import ClientSlider from '../components/ClientSlider';
-import { IMAGES, SVGICON } from '../constants/theme';
-import LatestSlider from '../elements/LatestSlider';
+//import ClientSlider from '../components/ClientSlider';
+import { IMAGES
+  //  , SVGICON 
+} from '../constants/theme';
+//import LatestSlider from '../elements/LatestSlider';
 import NewsLetter from '../elements/NewsLetter';
 import PageTitle from '../elements/PageTitle';
-import WorkoutSlider from '../elements/WorkoutSlider';
+//import WorkoutSlider from '../elements/WorkoutSlider';
 
 const  wrapperBlog = [
     {title:"Right Nutrition", image:IMAGES.boxlog1},
@@ -14,8 +16,6 @@ const  wrapperBlog = [
     {title:"Health Motivation", image:IMAGES.boxlog4},
     {title:"Healthy Heart", image:IMAGES.boxlog5},
     {title:"Smoothie & Juice", image:IMAGES.boxlog6},
-    {title:"Yoga & Exercise", image:IMAGES.boxlog7},
-    {title:"Health Motivation", image:IMAGES.boxlog8},
 ];
 
 const Services = () => {
@@ -28,7 +28,7 @@ const Services = () => {
                     <div className="container">
                         <div className="row">
                             {wrapperBlog.map((item, index)=>(
-                                <div className="col-xl-3 col-md-6 m-b30" key={index}>
+                                <div className="col-xl-4 col-md-6 m-b30" key={index}>
                                     <div class={`icon-bx-wraper style-1 box-hover ${hover === index ? 'active' : ''}`}
                                         onMouseEnter={()=>setHover(index)}
                                     >
@@ -49,7 +49,7 @@ const Services = () => {
                         </div>    
                     </div>
                 </section>
-                <section className="content-inner portfolio-wrapper">
+              {/*  <section className="content-inner portfolio-wrapper">
 			        <div className="portfolio-wrapper-inner">
 				        <div className="container-fluid  p-0">
                             <WorkoutSlider />                
@@ -61,8 +61,8 @@ const Services = () => {
                     <svg className="shape-down" width="673" height="109" viewBox="0 0 673 109" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M682 0L0 56L682 109V0Z" fill="var(--primary)"/>
                     </svg>      
-                </section>
-                <section className="content-inner-1 testimonial-wrapper1" data-text="FEEDBACK" style={{backgroundImage: "url("+ IMAGES.BgImage2 +")", backgroundPosition: "center"}}>
+                </section>*/}
+               {/* <section className="content-inner-1 testimonial-wrapper1" data-text="FEEDBACK" style={{backgroundImage: "url("+ IMAGES.BgImage2 +")", backgroundPosition: "center"}}>
                     <div className="container">
                         <div className="section-head text-center">
                             <h5 className="sub-title">TESTIMONIAL</h5>
@@ -79,10 +79,10 @@ const Services = () => {
                     <div className="avatar6"><img src={IMAGES.avatar3} alt=""/></div>
                     <img className="svg-shape rotate-360" src={SVGICON.circlebigSvg1} alt=""/>
                     <img className="svg-shape-2 rotate-360" src={SVGICON.circlebigSvg2} alt=""/>
-                </section>  
-                <section className="content-inner-1 overflow-hidden" style={{backgroundImage: "url("+ IMAGES.BgImage1 +")"}}>
+                </section>  */}
+               {/* <section className="content-inner-1 overflow-hidden" style={{backgroundImage: "url("+ IMAGES.BgImage1 +")"}}>
                     <LatestSlider />
-                </section>  
+                </section>  */}
                 <section className="call-action style-1 footer-action">
 			        <div className="container">
                         <NewsLetter />

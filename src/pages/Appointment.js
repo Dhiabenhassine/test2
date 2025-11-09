@@ -109,8 +109,8 @@ const Appointment = () => {
                 name="submit"
                 type="submit"
                 value="Submit"
-                className="btn btn-primary btn-lg btn-skew mt-3"
-              >
+ className="btn btn-lg btn-skew mt-3"
+  style={{ backgroundColor: "#000", borderColor: "#000", color: "#fff" }}              >
                 <span>Appointment</span>
               </button>
             </form>
