@@ -7,9 +7,8 @@ const Footer = () => {
     return (
         <>
             <footer
-                className="site-footer style-1 bg-img-fix footer-action text-center"
-                style={{ backgroundImage: "url(" + IMAGES.footerbg + ")" }}
-                id="footer"
+                className="site-footer style-1 footer-action bg-dark"
+              
             >
                 <div className="footer-top d-flex justify-content-center align-items-center">
                     <div className="container">
